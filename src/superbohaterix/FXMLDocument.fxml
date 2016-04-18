@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="superbohaterix.FXMLDocumentController">
+    <children>
+        <javafx.scene.canvas.Canvas fx:id="map" layoutX="0" layoutY="0"   width="1024" height="600" />
+    </children>
+    <children>
+        <javafx.scene.canvas.Canvas fx:id="sidePanel" layoutX="835" layoutY="0"   width="192" height="600" />
+    </children>
+</AnchorPane>
